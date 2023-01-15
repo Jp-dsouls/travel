@@ -652,7 +652,7 @@ body {
 
 .information {
   background-image: none;
-  margin-top      : 300px;
+  max-height      : 1200px;
 }
 
 .information .container-information .u-image-1 {
@@ -748,8 +748,8 @@ body {
 }
 
 @media (max-width: 1199px) {
-  .information .u-sheet-1 {
-    min-height: 1333px;
+  .information {
+    margin-top: 30px;
   }
 
   .information .u-image-1 {
@@ -795,6 +795,10 @@ body {
 }
 
 @media (max-width: 991px) {
+  .information {
+    margin-top: 250px;
+  }
+
   .information .u-sheet-1 {
     min-height: 1476px;
   }
@@ -835,6 +839,10 @@ body {
 }
 
 @media (max-width: 767px) {
+  .information {
+    margin-top: 300px;
+  }
+
   .information .u-sheet-1 {
     min-height: 1485px;
   }
@@ -880,8 +888,9 @@ body {
 }
 
 @media (max-width: 575px) {
-  .information .u-sheet-1 {
-    min-height: 1298px;
+  .information {
+    margin-top: 250px;
+    max-height: 950px;
   }
 
   .information .u-image-1 {
