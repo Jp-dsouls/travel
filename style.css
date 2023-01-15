@@ -525,18 +525,6 @@ span.fr-img-caption.fr-view.fr-dii.fr-fir {
   max-width: calc(100% - 5px);
 }
 
-/*end-commonstyles library*/
-/*begin-commonstyles library*/
-@charset "UTF-8";
-
-/*!
- * animate.css -http://daneden.me/animate
- * Version - 3.7.0
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2018 Daniel Eden
- */
-
 @-webkit-keyframes bounce {
 
   from,
