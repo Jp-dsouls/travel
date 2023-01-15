@@ -15,12 +15,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
-<body class="u-body">
+<body class="u-body bg-purplee">
   <!-- BANNER -->
   <section class="text-center clear-fix u-image banner">
-    <div class="clear-fix u-sheet d-flex flex-column u-sheet-1">
+    <div class="clear-fix u-sheet d-flex flex-column justify-content-center u-sheet-1">
       <h4 class="u-text-1 color-white">agencia de viajes</h4>
       <img src="//images01.nicepage.com/c461c07a441a5d220e8feb1a/a6c2db37762a57b7904508f8/rrr.png" alt=""
         class="u-image u-image-contain u-image-default u-image-1">
@@ -30,12 +32,13 @@
         class="text-center u-btn u-btn-round u-btn-1 border-white color-white border-white-hover">Lee mas</a>
     </div>
   </section>
-  <section class="text-center clear-fix u-section-3 bg-purplee">
+  <!-- CARDS -->
+  <section class="text-center clear-fix cards">
     <div class="clear-fix u-sheet u-sheet-1">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-3 bg-white text-center p-0">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+          <div class="col-lg-3 col-md-3 bg-white text-center p-0 border-1 rounded-5">
+            <div class="p-4 u-container-layout u-similar-container u-valign-top u-container-layout-1">
               <span class="u-icon u-icon-circle u-text-palette-5-dark-2 u-icon-1">
                 <i class="fa-solid fa-suitcase" style="font-size: 60px;"></i>
               </span>
@@ -43,8 +46,8 @@
               <p class="u-text-2">Sample text. Click to select the text box.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 bg-white text-center p-0">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+          <div class="col-lg-3 col-md-3 bg-white text-center p-0 border-1 rounded-5">
+            <div class="p-4 u-container-layout u-similar-container u-valign-top u-container-layout-2">
               <span class="u-icon u-icon-circle u-text-palette-5-dark-2 u-icon-2">
                 <i class="fa-solid fa-earth-americas" style="font-size: 60px;"></i>
               </span>
@@ -52,8 +55,8 @@
               <p class="u-text-4">Sample text. Click to select the text box.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 bg-white text-center p-0">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+          <div class="col-lg-3 col-md-3 bg-white text-center p-0 border-1 rounded-5">
+            <div class="p-4 u-container-layout u-similar-container u-valign-top u-container-layout-3">
               <span class="u-icon u-icon-circle u-text-palette-5-dark-2 u-icon-3">
                 <i class="fa-solid fa-campground" style="font-size: 60px;"></i>
               </span>
@@ -61,8 +64,8 @@
               <p class="u-text-6">Sample text. Click to select the text box.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 bg-white text-center p-0">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+          <div class="col-lg-3 col-md-3 bg-white text-center p-0 border-1 rounded-5">
+            <div class="p-4 u-container-layout u-similar-container u-valign-top u-container-layout-4">
               <span class="u-icon u-icon-circle u-text-palette-5-dark-2 u-icon-4">
                 <i class="fa-solid fa-hotel" style="font-size: 60px;"></i>
               </span>
@@ -74,39 +77,31 @@
       </div>
     </div>
   </section>
+  <!-- INFORMATION -->
   <section class="clear-fix  u-section-4">
     <div class="clear-fix u-sheet u-valign-middle u-sheet-1">
-      <div class="u-border-10 u-border-white u-image u-image-circle u-image-1" data-image-width="764"
+      <div class="rounded-circle border-solid-4 cards cards u-image u-image-circle u-image-1" data-image-width="764"
         data-image-height="955"></div>
-      <div class="u-image u-image-circle u-image-2" data-image-width="1170" data-image-height="780"></div>
-      <div class="u-border-20 u-border-white u-image u-image-circle u-image-3" data-image-width="736"
-        data-image-height="981"></div>
+      <div class="rounded-circle u-image u-image-circle u-image-2" data-image-width="1170" data-image-height="780">
+      </div>
+      <div class="rounded-circle border-solid-6 u-border-20 cards u-image u-image-circle u-image-3"
+        data-image-width="736" data-image-height="981"></div>
       <div class="u-shape u-shape-svg u-text-palette-3-light-1 u-shape-1">
-        <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
-          <use href="#svg-1186"></use>
-        </svg>
-        <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" style="enable-background:new 0 0 160 160;">
-          <path d="M80,30c27.6,0,50,22.4,50,50s-22.4,50-50,50s-50-22.4-50-50S52.4,30,80,30 M80,0C35.8,0,0,35.8,0,80s35.8,80,80,80
-	s80-35.8,80-80S124.2,0,80,0L80,0z"></path>
+        <i class="fa-regular fa-circle color-orange" style="font-size: 140px;"></i>
         </svg>
       </div>
       <div class="u-shape u-shape-svg u-text-palette-5-base u-shape-2">
-        <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
-          <use href="#svg-525f"></use>
-        </svg>
-        <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" style="enable-background:new 0 0 160 160;">
-          <path d="M80,30c27.6,0,50,22.4,50,50s-22.4,50-50,50s-50-22.4-50-50S52.4,30,80,30 M80,0C35.8,0,0,35.8,0,80s35.8,80,80,80
-	s80-35.8,80-80S124.2,0,80,0L80,0z"></path>
-        </svg>
+        <i class="fa-regular fa-circle color-gray" style="font-size: 140px;"></i>
       </div>
       <div class="text-center  u-expanded-width u-group u-shape-rectangle u-group-1">
         <div class="u-container-layout u-container-layout-1">
-          <h2 class=" u-text-1"> Viajes de mochilero</h2>
-          <p class="u-text-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          <h2 class=" u-text-1 color-white"> Viajes de mochilero</h2>
+          <p class="u-text-2 color-white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu
             fugiat nulla pariatur. Excepteur sint Ocecat cupidatat non proident, sunt in culpa qui officia deserunt
             mollit.</p>
           <p class="u-text-3">Imágenes de <a href="https://www.freepik.com/photos/background"
-              class="u-border-1 u-border-active-white u-border-hover-white u-border-white u-btn u-button-link u-button-style  color-white u-btn-1">Freepik</a>
+              class="u-border-1 u-border-active-white u-border-hover-white cards u-btn u-button-link u-button-style  color-white u-btn-1">Freepik</a>
           </p>
           <a href="https://nicepage.dev"
             class="u-active-palette-5-dark-2 text-center u-border-none u-btn u-btn-round u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-hover-palette-5-dark-2 u-palette-3-light-1 u-radius-50 u-text-active-white color-white u-text-hover-white u-btn-2">Lee
@@ -115,12 +110,13 @@
       </div>
     </div>
   </section>
+  <!-- ABOUT US -->
   <section class="text-center clear-fix  u-section-5">
     <div class="clear-fix u-sheet u-sheet-1">
       <div class=" u-group  u-group-1">
         <div class="u-container-layout u-container-layout-1">
-          <h2 class="u-text-1">Sobre nosotros</h2>
-          <p class=" u-font-pt-sans u-text-2">El trabajo de toda una vida de abrazar tanto lo
+          <h2 class="u-text-1 color-white">Sobre nosotros</h2>
+          <p class=" u-font-pt-sans u-text-2 color-white">El trabajo de toda una vida de abrazar tanto lo
             creativo como lo cuantitativo, desarrollando negocios online prósperos y marcas envidiables.</p>
         </div>
       </div>
@@ -128,7 +124,7 @@
         <div class="u-gutter-0 u-layout">
           <div class="u-layout-row">
             <div class="u-align-justify  u-layout-cell   u-size-30  u-layout-cell-1">
-              <div class="u-container-layout u-valign-top u-container-layout-2">
+              <div class="u-container-layout u-valign-top u-container-layout-2 bg-white">
                 <p class=" u-font-pt-sans  u-text-3">Sit amet massa vitae tortor
                   condimentum lacinia quis. Ornare arcu dui vivamus arcu felis bibendum ut. Consectetur adipiscing elit
                   duis tristique sollicitudin. Volutpat lacus laoreet non curabitur. Magna fringilla urna porttitor
@@ -137,7 +133,7 @@
                   faucibus scelerisque eleifend donec pretium vulputate sapien nec.&nbsp;Eget gravida cum sociis
                   natoque.&nbsp;</p>
                 <a href="https://nicepage.dev"
-                  class="u-active-palette-5-dark-2 u-border-none u-btn u-btn-round u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-hover-palette-5-dark-2 u-palette-3-light-1 u-radius-50 u-text-active-white color-white u-text-hover-white u-btn-1">Lee
+                  class="bg-orange rounded-5 u-active-palette-5-dark-2 u-border-none u-btn u-btn-round u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-hover-palette-5-dark-2 u-palette-3-light-1 u-radius-50 u-text-active-white color-white u-text-hover-white u-btn-1">Lee
                   mas</a>
               </div>
             </div>
@@ -146,7 +142,7 @@
                 <div class="u-image u-image-circle u-image-1" data-image-width="900" data-image-height="900"></div>
                 <p class="u-align-right color-white  u-text-4">Imágenes de <a
                     href="https://www.freepik.com/photos/background"
-                    class="u-border-1 u-border-white u-btn u-button-link u-button-style  color-white u-btn-2">Freepik</a>
+                    class="u-border-1 cards u-btn u-button-link u-button-style  color-white u-btn-2">Freepik</a>
                 </p>
               </div>
             </div>
@@ -155,11 +151,12 @@
       </div>
     </div>
   </section>
+  <!-- TESTIMONIALS -->
   <section class="u-align-left clear-fix  u-section-6">
     <div class="clear-fix u-sheet  u-valign-middle-xs u-sheet-1">
-      <div class=" -1">
+      <div class="">
         <div class="u-repeater u-repeater-1">
-          <div class="u-align-left  -item     -item-1">
+          <div class="u-align-left bg-white">
             <div class="u-container-layout u-similar-container u-container-layout-1">
               <div alt="" class="u-image u-image-circle u-image-1" data-image-width="1300" data-image-height="867">
               </div>
@@ -170,7 +167,7 @@
                 class="u-active-none text-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-btn u-button-style u-hover-none  u-text-body-color u-btn-1">más</a>
             </div>
           </div>
-          <div class="u-align-left  -item     -item-2">
+          <div class="u-align-left bg-white">
             <div class="u-container-layout u-similar-container u-container-layout-2">
               <div alt="" class="u-image u-image-circle u-image-2" data-image-width="864" data-image-height="1080">
               </div>
@@ -181,7 +178,7 @@
                 class="u-active-none text-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-btn u-button-style u-hover-none  u-text-body-color u-btn-2">más</a>
             </div>
           </div>
-          <div class="u-align-left  -item     -item-3">
+          <div class="u-align-left bg-white">
             <div class="u-container-layout u-similar-container u-container-layout-3">
               <div alt="" class="u-image u-image-circle u-image-3" data-image-width="1400" data-image-height="933">
               </div>
@@ -194,89 +191,88 @@
           </div>
         </div>
       </div>
-      <p class="color-white  u-text-7">Imágenes de <a href="https://www.freepik.com/photos/background"
-          class="u-border-1 u-border-white u-btn u-button-link u-button-style  color-white u-btn-4">Freepik</a>
-      </p>
     </div>
   </section>
+  <!-- FEATURED PLACES -->
   <section class="u-align-right-md u-align-right-sm u-align-right-xs clear-fix  u-section-7">
     <div class="clear-fix u-sheet u-sheet-1">
       <div class="u-align-left    u-group u-group-1">
         <div class="u-container-layout u-container-layout-1">
           <div class="u-image u-image-circle u-image-1" data-image-width="720" data-image-height="1080"></div>
-          <h2 class=" u-text-1">Libertad</h2>
+          <h2 class=" u-text-1 color-white">Libertad</h2>
         </div>
       </div>
-      <p class="u-align-justify-lg u-align-justify-xl u-text-2"> Duis aute irure dolor in reprehenderit in
+      <p class="u-align-justify-lg u-align-justify-xl u-text-2 color-white"> Duis aute irure dolor in reprehenderit in
         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint Ocecat cupidatat non proident, sunt
         in culpa qui officia deserunt mollit anim id est laborum.</p>
       <div class="u-shape u-shape-svg u-text-palette-3-light-1 u-shape-1">
-        <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
-          <use href="#svg-8cdc"></use>
-        </svg>
-        <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" style="enable-background:new 0 0 160 160;">
-          <path d="M80,30c27.6,0,50,22.4,50,50s-22.4,50-50,50s-50-22.4-50-50S52.4,30,80,30 M80,0C35.8,0,0,35.8,0,80s35.8,80,80,80
-	s80-35.8,80-80S124.2,0,80,0L80,0z"></path>
-        </svg>
+        <i class="fa-regular fa-circle color-orange" style="font-size: 140px;"></i>
       </div>
     </div>
   </section>
+  <!-- REEL -->
   <section class="clear-fix u-section-8">
     <div class="u-expanded-width u-gallery u-lightbox u-show-text-on-hover u-gallery-1">
-      <div class=" -1">
-        <div class="u-effect-fade u-gallery-item">
-          <div class="u-back-slide">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <img class="u-back-image u-expanded"
-              src="//images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/4b6ee786238e5f5e88bab82b/pexels-photo-2863403.jpeg">
+              src="https://cdn.pixabay.com/photo/2013/01/14/12/09/sunset-74907_960_720.jpg">
           </div>
-          <div class="u-over-slide  u-over-slide-1">
-            <h3 class="u-gallery-heading"></h3>
-            <p class="u-gallery-text"></p>
+          <div class="swiper-slide">
+            <img class="u-back-image u-expanded" alt="Laguna de Paron"
+              src="https://cdn.pixabay.com/photo/2020/04/05/19/01/laguna-paron-5007406_960_720.jpg">
           </div>
-        </div>
-        <div class="u-effect-fade u-gallery-item">
-          <div class="u-back-slide">
+          <div class="swiper-slide">
+            <img class="u-back-image u-expanded" alt="Montaña de 7 colores"
+              src="https://cdn.pixabay.com/photo/2021/07/17/01/29/peru-6472065_960_720.jpg">
+          </div>
+          <div class="swiper-slide">
             <img class="u-back-image u-expanded"
               src="//images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/57ad12cf8dc0507aaff20b4f/pexels-photo-4705145.jpeg">
           </div>
-          <div class="u-over-slide  u-over-slide-2">
-            <h3 class="u-gallery-heading"></h3>
-            <p class="u-gallery-text"></p>
+          <div class="swiper-slide">
+            <img class="u-back-image u-expanded"
+              src="//images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/4b6ee786238e5f5e88bab82b/pexels-photo-2863403.jpeg">
           </div>
-        </div>
-        <div class="u-effect-fade u-gallery-item">
-          <div class="u-back-slide">
+          <div class="swiper-slide">
             <img class="u-back-image u-expanded"
               src="//images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/35f96215891556df9dda6d0f/pexels-photo-4993292.jpeg">
           </div>
-          <div class="u-over-slide  u-over-slide-3">
-            <h3 class="u-gallery-heading"></h3>
-            <p class="u-gallery-text"></p>
+          <div class="swiper-slide">
+            <img class="u-back-image u-expanded"
+              src="https://cdn.pixabay.com/photo/2023/01/10/17/05/mushroom-7710167_960_720.jpg">
+          </div>
+          <div class="swiper-slide">
+            <img class="u-back-image u-expanded"
+              src="https://cdn.pixabay.com/photo/2022/12/30/20/11/rose-7687604_960_720.jpg">
+          </div>
+          <div class="swiper-slide">
+            <img class="u-back-image u-expanded"
+              src="https://cdn.pixabay.com/photo/2022/11/19/15/50/holly-7602422_960_720.jpg">
+          </div>
+          <div class="swiper-slide">
+            <img class="u-back-image u-expanded"
+              src="https://cdn.pixabay.com/photo/2019/02/24/04/14/mountains-4016982_960_720.jpg">
           </div>
         </div>
+        <div class="swiper-button-next color-white"></div>
+        <div class="swiper-button-prev color-white"></div>
       </div>
     </div>
   </section>
+  <!-- ATTRACTIONS -->
   <section class="text-center clear-fix  u-section-9">
     <div class="clear-fix u-sheet u-valign-middle u-sheet-1">
       <div class="u-shape u-shape-svg u-text-palette-5-base u-shape-1">
-        <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160">
-          <use href="#svg-a0bf"></use>
-        </svg>
-        <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" style="enable-background:new 0 0 160 160;">
-          <path d="M80,30c27.6,0,50,22.4,50,50s-22.4,50-50,50s-50-22.4-50-50S52.4,30,80,30 M80,0C35.8,0,0,35.8,0,80s35.8,80,80,80
-	s80-35.8,80-80S124.2,0,80,0L80,0z"></path>
-        </svg>
+        <i class="fa-solid fa-circle color-orange" style="font-size: 200px;"></i>
       </div>
-      <div class="u-image u-image-circle u-image-1" data-image-width="900" data-image-height="900"></div>
+      <div class="rounded-circle u-image u-image-circle u-image-1" data-image-width="900" data-image-height="900"></div>
       <div class="u-align-left   u-group    u-group-1">
-        <div class="u-container-layout u-valign-middle u-container-layout-1">
+        <div class="bg-white u-container-layout u-valign-middle u-container-layout-1">
           <h3 class="u-text-1">Festival de Globos Aerostáticos</h3>
           <p class="u-text-2">El artículo evidente llegó expreso que los hombres más altos hicieron niño. Señora
             muy sensible, soy así. Rápido puede gobernar las esperanzas de dinero inteligente que también valen la pena.
-          </p>
-          <p class="u-text-3">Imagen de <a href="https://www.freepik.com/photos/nature"
-              class="u-active-none u-border-1 u-border-active-palette-3-base u-border-black u-border-hover-palette-3-base u-btn u-button-link u-button-style u-hover-none  u-text-active-black u-text-body-color u-text-hover-black u-btn-1">Freepik</a>
           </p>
           <a href="https://nicepage.dev"
             class="u-active-palette-3-light-1 u-border-none u-btn u-btn-round u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-hover-palette-3-light-1 u-palette-5-dark-2 u-radius-50 u-text-active-white color-white u-text-hover-white u-btn-2">Lee
@@ -286,9 +282,10 @@
       <div class="u-palette-3-light-1 u-shape u-shape-circle u-shape-2"></div>
     </div>
   </section>
+  <!-- CONTACT -->
   <section class="text-center clear-fix  u-section-10">
     <div class="clear-fix u-sheet u-valign-middle-xs u-sheet-1">
-      <h2 class="u-text-1">Ponerse en contacto</h2>
+      <h2 class="u-text-1 color-white">Ponerse en contacto</h2>
       <div class="u-form u-form-1">
         <form action="https://nicepage.com/editor/Forms/Process" method="POST"
           class="clear-fix u-form-spacing-40 u-form-vertical u-inner-form" source="email">
@@ -298,21 +295,21 @@
             <label for="name-e4cc" class="u-form-control-hidden u-label color-white u-label-1"
               wfd-invisible="true">Name</label>
             <input type="text" placeholder="" name="name"
-              class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-palette-5-dark-2 color-white u-input-1"
+              class="u-border-2 u-border-no-left u-border-no-right u-border-no-top cards u-input u-input-rectangle u-palette-5-dark-2 color-white u-input-1"
               required="">
           </div>
           <div class="u-form-email u-form-group u-form-partition-factor-2 u-form-group-2">
             <label for="email-e4cc" class="u-form-control-hidden u-label color-white u-label-2"
               wfd-invisible="true">Email</label>
             <input type="email" placeholder="Enter a valid email address" name="email"
-              class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-palette-5-dark-2 color-white u-input-2"
+              class="u-border-2 u-border-no-left u-border-no-right u-border-no-top cards u-input u-input-rectangle u-palette-5-dark-2 color-white u-input-2"
               required="">
           </div>
           <div class="u-form-group u-form-message u-form-group-3">
             <label for="message-e4cc" class="u-form-control-hidden u-label color-white u-label-3"
               wfd-invisible="true">Message</label>
             <textarea placeholder="Enter your message" rows="4" cols="50" name="message"
-              class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-palette-5-dark-2 color-white u-input-3"
+              class="u-border-2 u-border-no-left u-border-no-right u-border-no-top cards u-input u-input-rectangle u-palette-5-dark-2 color-white u-input-3"
               required=""></textarea>
           </div>
           <div class="text-center u-form-group u-form-submit u-form-group-4">
@@ -330,30 +327,32 @@
     </div>
   </section>
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-  <footer class="text-center clear-fix u-footer u-grey-80 u-footer">
-    <div class="clear-fix u-sheet u-sheet-1">
-      <p class="u-small-text u-text-variant u-text-1">Sample text. Click to select the text box. Click again or
-        double click to start editing the text.</p>
-    </div>
-  </footer>
-  <section class="u-backlink clear-fix u-grey-80">
-    <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-      <span>Website Templates</span>
-    </a>
-    <p class="u-text">
-      <span> creado con </span>
-    </p>
-    <a class="u-link" href="https://nicepage.com/" target="_blank">
-      <span>Website Builder Software</span>
-    </a>.
-  </section>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper', {
+      slidesPerView: 3,
+      direction: getDirection(),
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        resize: function () {
+          swiper.changeDirection(getDirection());
+        },
+      },
+    });
 
-  <style>
-    .u-disable-duration * {
-      transition-duration: 0s !important;
+    function getDirection() {
+      var windowWidth = window.innerWidth;
+      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+      return direction;
     }
-  </style>
+  </script>
 </body>
 
 </html>l
