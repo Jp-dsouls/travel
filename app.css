@@ -9,9 +9,9 @@
 }
 
 * {
-  margin    : 0;
-  padding   : 0;
-  box-sizing: border-box;
+  margin       : 0;
+  padding      : 0;
+  box-sizing   : border-box;
   /* border    : 1px solid red; */
 }
 
@@ -26,6 +26,29 @@ body {
 
 .mt--10 {
   margin-top: -100px;
+}
+
+.h-450 {
+  height: 450px !important;
+}
+
+@media (max-width: 992px) {
+  .h-450 {
+    height: 480px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .h-450 {
+    height: 400px !important;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .h-450 {
+    height: 470px !important;
+  }
 }
 
 .u-body {
@@ -1171,35 +1194,35 @@ body {
   }
 }
 
-.u-section-6 {
+.testimonials {
   background-image: none;
 }
 
-.u-section-6 .u-sheet-1 {
+.testimonials .u-sheet-1 {
   min-height: 798px;
 }
 
-.u-section-6 .u-list-1 {
+.testimonials .u-list-1 {
   width : 1033px;
   margin: 163px auto 0;
 }
 
-.u-section-6 .u-repeater-1 {
+.testimonials .u-repeater-1 {
   grid-template-columns: repeat(3, calc(33.3333% - 22px));
   min-height           : 515px;
   grid-gap             : 33px;
 }
 
-.u-section-6 .u-list-item-1 {
+.testimonials .u-list-item-1 {
   background-image: none;
   box-shadow      : 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.u-section-6 .u-container-layout-1 {
+.testimonials .u-container-layout-1 {
   padding: 30px 25px;
 }
 
-.u-section-6 .u-image-1 {
+.testimonials .u-image-1 {
   width              : 147px;
   height             : 147px;
   background-image   : url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/b7b05e77b57b56baa176ad42/tftry-min.jpg");
@@ -1207,19 +1230,19 @@ body {
   margin             : 0 auto 0 0;
 }
 
-.u-section-6 .u-text-1 {
+.testimonials .u-text-1 {
   font-weight   : 700;
   text-transform: none;
   letter-spacing: normal;
   margin        : 39px 0 0;
 }
 
-.u-section-6 .u-text-2 {
+.testimonials .u-text-2 {
   font-size: 1.25rem;
   margin   : 27px 0 0;
 }
 
-.u-section-6 .u-btn-1 {
+.testimonials .u-btn-1 {
   border-style  : none none solid;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1227,15 +1250,15 @@ body {
   padding       : 0;
 }
 
-.u-section-6 .u-list-item-2 {
+.testimonials .u-list-item-2 {
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.u-section-6 .u-container-layout-2 {
+.testimonials .u-container-layout-2 {
   padding: 30px 25px;
 }
 
-.u-section-6 .u-image-2 {
+.testimonials .u-image-2 {
   width              : 147px;
   height             : 147px;
   background-image   : url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/2f06f199e82f5d2e80d4b930/gbcabcf627c179e3070fef24a69f43a814d1e55e6d1d1ec1b7d9d6d10d78509c61a93daa84dbaa63ffdd8cde1f8329d25c6593e42c3a1abd2746cb689f7c87497_1280.jpg");
@@ -1243,7 +1266,7 @@ body {
   margin             : 0 auto 0 0;
 }
 
-.u-section-6 .u-text-3 {
+.testimonials .u-text-3 {
   font-weight   : 700;
   text-transform: none;
   letter-spacing: normal;
@@ -1251,12 +1274,12 @@ body {
   margin        : 39px 0 0;
 }
 
-.u-section-6 .u-text-4 {
+.testimonials .u-text-4 {
   font-size: 1.25rem;
   margin   : 27px 0 0;
 }
 
-.u-section-6 .u-btn-2 {
+.testimonials .u-btn-2 {
   border-style  : none none solid;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1264,15 +1287,15 @@ body {
   padding       : 0;
 }
 
-.u-section-6 .u-list-item-3 {
+.testimonials .u-list-item-3 {
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.u-section-6 .u-container-layout-3 {
+.testimonials .u-container-layout-3 {
   padding: 30px 25px;
 }
 
-.u-section-6 .u-image-3 {
+.testimonials .u-image-3 {
   width              : 147px;
   height             : 147px;
   background-image   : url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/2e1771fe2fc45ac688ca14ae/bbb.jpg");
@@ -1280,7 +1303,7 @@ body {
   margin             : 0 auto 0 0;
 }
 
-.u-section-6 .u-text-5 {
+.testimonials .u-text-5 {
   font-weight   : 700;
   text-transform: none;
   letter-spacing: normal;
@@ -1288,12 +1311,12 @@ body {
   margin        : 39px 0 0;
 }
 
-.u-section-6 .u-text-6 {
+.testimonials .u-text-6 {
   font-size: 1.25rem;
   margin   : 27px 0 0;
 }
 
-.u-section-6 .u-btn-3 {
+.testimonials .u-btn-3 {
   border-style  : none none solid;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1301,101 +1324,107 @@ body {
   padding       : 0;
 }
 
-.u-section-6 .u-text-7 {
+.testimonials .u-text-7 {
   font-weight: 400;
   margin     : 38px auto 56px;
 }
 
-.u-section-6 .u-btn-4 {
+.testimonials .u-btn-4 {
   border-style: none none solid;
   font-style  : normal;
   padding     : 0;
 }
 
 @media (max-width: 1199px) {
-  .u-section-6 .u-sheet-1 {
+  .testimonials .u-sheet-1 {
     min-height: 658px;
   }
 
-  .u-section-6 .u-list-1 {
+  .testimonials .u-list-1 {
     width: 940px;
   }
 
-  .u-section-6 .u-repeater-1 {
+  .testimonials .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 22px));
     min-height           : 469px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-6 .u-sheet-1 {
+  .testimonials .u-sheet-1 {
     min-height: 504px;
   }
 
-  .u-section-6 .u-list-1 {
+  .testimonials .u-list-1 {
     width: 720px;
   }
 
-  .u-section-6 .u-repeater-1 {
+  .testimonials .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 16.5px));
     min-height           : 1078px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-6 .u-sheet-1 {
+  .testimonials .u-sheet-1 {
     min-height: 1478px;
   }
 
-  .u-section-6 .u-list-1 {
+  .testimonials .u-list-1 {
     width     : 540px;
     margin-top: 55px;
   }
 
-  .u-section-6 .u-repeater-1 {
+  .testimonials .u-repeater-1 {
     grid-template-columns: 100%;
   }
 
-  .u-section-6 .u-container-layout-1 {
+  .testimonials .u-container-layout-1 {
     padding-left : 30px;
     padding-right: 30px;
   }
 
-  .u-section-6 .u-container-layout-2 {
+  .testimonials .u-container-layout-2 {
     padding-left : 30px;
     padding-right: 30px;
   }
 
-  .u-section-6 .u-container-layout-3 {
+  .testimonials .u-container-layout-3 {
     padding-left : 30px;
     padding-right: 30px;
   }
 
-  .u-section-6 .u-text-7 {
+  .testimonials .u-text-7 {
     margin-bottom: 55px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-6 .u-sheet-1 {
-    min-height: 930px;
+  .testimonials {
+    padding: 0 !important;
   }
 
-  .u-section-6 .u-list-1 {
+  .testimonials .u-sheet-1 {
+    min-height: 930px;
+    width     : 300px;
+    margin    : 0 auto;
+  }
+
+  .testimonials .u-list-1 {
     width: 340px;
   }
 
-  .u-section-6 .u-container-layout-1 {
+  .testimonials .u-container-layout-1 {
     padding-left : 20px;
     padding-right: 20px;
   }
 
-  .u-section-6 .u-container-layout-2 {
+  .testimonials .u-container-layout-2 {
     padding-left : 20px;
     padding-right: 20px;
   }
 
-  .u-section-6 .u-container-layout-3 {
+  .testimonials .u-container-layout-3 {
     padding-left : 20px;
     padding-right: 20px;
   }
