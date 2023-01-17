@@ -1643,22 +1643,18 @@ body {
   }
 }
 
-.u-section-9 {
+.attractions {
   background-image: none;
 }
 
-.u-section-9 .u-sheet-1 {
-  min-height: 1071px;
-}
-
-.u-section-9 .u-shape-1 {
+.attractions .u-shape-1 {
   width           : 246px;
   height          : 246px;
   background-image: none;
   margin          : 60px auto 0 712px;
 }
 
-.u-section-9 .u-image-1 {
+.attractions .u-image-1 {
   width              : 650px;
   height             : 650px;
   background-image   : url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/b46896e762a25dc681edea4e/ertt.jpg");
@@ -1667,41 +1663,41 @@ body {
   margin             : -246px auto 0 51px;
 }
 
-.u-section-9 .u-group-1 {
+.attractions .u-group-1 {
   width           : 613px;
   min-height      : 501px;
   background-image: none;
   margin          : -240px auto 0 507px;
 }
 
-.u-section-9 .u-container-layout-1 {
+.attractions .u-container-layout-1 {
   padding: 30px 50px;
 }
 
-.u-section-9 .u-text-1 {
+.attractions .u-text-1 {
   font-weight: 700;
   margin     : 0 43px 0 0;
 }
 
-.u-section-9 .u-text-2 {
+.attractions .u-text-2 {
   font-size  : 1.25rem;
   font-weight: 400;
   margin     : 26px 0 0;
 }
 
-.u-section-9 .u-text-3 {
+.attractions .u-text-3 {
   font-style: normal;
   font-size : 1.25rem;
   margin    : 26px 0 0;
 }
 
-.u-section-9 .u-btn-1 {
+.attractions .u-btn-1 {
   border-style: none none solid;
   font-style  : normal;
   padding     : 0;
 }
 
-.u-section-9 .u-btn-2 {
+.attractions .u-btn-2 {
   letter-spacing  : 2px;
   font-size       : 1rem;
   background-image: none;
@@ -1712,33 +1708,33 @@ body {
   padding         : 16px 52px 17px;
 }
 
-.u-section-9 .u-shape-2 {
+.attractions .u-shape-2 {
   width : 168px;
   height: 168px;
   margin: -428px auto 320px 20px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-9 .u-sheet-1 {
+  .attractions .u-sheet-1 {
     min-height: 1200px;
   }
 
-  .u-section-9 .u-shape-1 {
+  .attractions .u-shape-1 {
     margin-left: 694px;
   }
 
-  .u-section-9 .u-image-1 {
+  .attractions .u-image-1 {
     margin-top : -159px;
     margin-left: 28px;
   }
 
-  .u-section-9 .u-group-1 {
+  .attractions .u-group-1 {
     margin-top  : -143px;
     margin-right: 0;
     margin-left : auto;
   }
 
-  .u-section-9 .u-shape-2 {
+  .attractions .u-shape-2 {
     margin-top   : -526px;
     margin-bottom: 418px;
     margin-left  : 28px;
@@ -1746,32 +1742,32 @@ body {
 }
 
 @media (max-width: 991px) {
-  .u-section-9 .u-sheet-1 {
+  .attractions .u-sheet-1 {
     min-height: 1232px;
   }
 
-  .u-section-9 .u-shape-1 {
+  .attractions .u-shape-1 {
     margin-left: 474px;
   }
 
-  .u-section-9 .u-image-1 {
+  .attractions .u-image-1 {
     width      : 554px;
     height     : 554px;
     margin-top : -54px;
     margin-left: 26px;
   }
 
-  .u-section-9 .u-group-1 {
+  .attractions .u-group-1 {
     width     : 447px;
     margin-top: -119px;
   }
 
-  .u-section-9 .u-container-layout-1 {
+  .attractions .u-container-layout-1 {
     padding-left : 30px;
     padding-right: 30px;
   }
 
-  .u-section-9 .u-shape-2 {
+  .attractions .u-shape-2 {
     width        : 138px;
     height       : 138px;
     margin-top   : -536px;
@@ -1781,32 +1777,32 @@ body {
 }
 
 @media (max-width: 767px) {
-  .u-section-9 .u-sheet-1 {
+  .attractions .u-sheet-1 {
     min-height: 1286px;
   }
 
-  .u-section-9 .u-shape-1 {
+  .attractions .u-shape-1 {
     margin-left: 294px;
   }
 
-  .u-section-9 .u-image-1 {
+  .attractions .u-image-1 {
     width      : 434px;
     height     : 434px;
     margin-top : -31px;
     margin-left: 13px;
   }
 
-  .u-section-9 .u-group-1 {
+  .attractions .u-group-1 {
     min-height: 517px;
     margin-top: 68px;
   }
 
-  .u-section-9 .u-text-1 {
+  .attractions .u-text-1 {
     margin-right: 2px;
     margin-left : 2px;
   }
 
-  .u-section-9 .u-shape-2 {
+  .attractions .u-shape-2 {
     margin-top   : -698px;
     margin-bottom: 620px;
     margin-left  : 0;
@@ -1814,22 +1810,28 @@ body {
 }
 
 @media (max-width: 575px) {
-  .u-section-9 .u-sheet-1 {
+
+  .attractions .u-shape-1 {
+    width : 130px;
+    height: 150px;
+  }
+
+  .attractions .u-sheet-1 {
     min-height: 1262px;
   }
 
-  .u-section-9 .u-shape-1 {
+  .attractions .u-shape-1 {
     margin-left: 94px;
   }
 
-  .u-section-9 .u-image-1 {
+  .attractions .u-image-1 {
     width      : 300px;
     height     : 300px;
     margin-top : 16px;
     margin-left: 0;
   }
 
-  .u-section-9 .u-group-1 {
+  .attractions .u-group-1 {
     min-height  : 502px;
     margin-top  : 78px;
     margin-right: initial;
@@ -1837,7 +1839,7 @@ body {
     width       : auto;
   }
 
-  .u-section-9 .u-shape-2 {
+  .attractions .u-shape-2 {
     width        : 96px;
     height       : 96px;
     margin-top   : -647px;
