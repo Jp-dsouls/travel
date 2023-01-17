@@ -261,7 +261,8 @@
       <div class="u-shape u-shape-svg u-text-palette-5-base u-shape-1">
         <i class="fa-solid fa-circle color-orange" style="font-size: 200px;"></i>
       </div>
-      <div class="rounded-circle u-image  u-image-1" data-image-width="900" data-image-height="900" style="background-size: contain;"></div>
+      <div class="rounded-circle u-image  u-image-1" data-image-width="900" data-image-height="900"
+        style="background-size: contain;"></div>
       <div class="text-align-left   u-group    u-group-1">
         <div class="bg-white u-container-layout u-valign-middle u-container-layout-1 rounded-5">
           <h3 class="u-text-1">Festival de Globos Aerostáticos</h3>
@@ -277,49 +278,84 @@
     </div>
   </section>
   <!-- CONTACT -->
-  <!-- <section class="text-center clear-fix  u-section-10">
-    <div class="clear-fix u-sheet  u-sheet-1">
-      <h2 class="u-text-1 color-white">Ponerse en contacto</h2>
-      <div class="u-form u-form-1">
-        <form action="https://nicepage.com/editor/Forms/Process" method="POST"
-          class="clear-fix u-form-spacing-40 u-form-vertical u-inner-form" source="email">
-          <input type="hidden" name="siteId" value="986375" wfd-invisible="true">
-          <input type="hidden" name="pageId" value="1088389" wfd-invisible="true">
-          <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-1">
-            <label for="name-e4cc" class="u-form-control-hidden u-label color-white u-label-1"
-              wfd-invisible="true">Name</label>
-            <input type="text" placeholder="" name="name"
-              class="u-border-2 u-border-no-left u-border-no-right u-border-no-top cards u-input u-input-rectangle u-palette-5-dark-2 color-white u-input-1"
-              required="">
+  <section id="contact" class="contact container">
+    <h2 class="text-center u-text-1 color-white font-size-60 font-bold"> Ponerse en contacto</h2>
+    <div class="contact-wrapper">
+      <form id="contact-form" class="form-horizontal" role="form">
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
           </div>
-          <div class="u-form-email u-form-group u-form-partition-factor-2 u-form-group-2">
-            <label for="email-e4cc" class="u-form-control-hidden u-label color-white u-label-2"
-              wfd-invisible="true">Email</label>
-            <input type="email" placeholder="Enter a valid email address" name="email"
-              class="u-border-2 u-border-no-left u-border-no-right u-border-no-top cards u-input u-input-rectangle u-palette-5-dark-2 color-white u-input-2"
-              required="">
+        </div>
+        <br>
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
           </div>
-          <div class="u-form-group u-form-message u-form-group-3">
-            <label for="message-e4cc" class="u-form-control-hidden u-label color-white u-label-3"
-              wfd-invisible="true">Message</label>
-            <textarea placeholder="Enter your message" rows="4" cols="50" name="message"
-              class="u-border-2 u-border-no-left u-border-no-right u-border-no-top cards u-input u-input-rectangle u-palette-5-dark-2 color-white u-input-3"
-              required=""></textarea>
+        </div>
+        <br>
+        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+        <button
+          class="border-0 border-orange color-white bg-orange send-button border-gray-hover d-flex justify-content-center align-items-center"
+          id="submit" type="submit" value="Enviar">
+          <div class="alt-send-button">
+            <i class="fa fa-paper-plane"></i><span class="send-text">Enviar</span>
           </div>
-          <div class="text-center u-form-group u-form-submit u-form-group-4">
-            <a href="#"
-              class="u-active-palette-5-dark-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-5-dark-2 u-palette-3-light-1  u-btn-1">Enviar</a>
-            <input type="submit" value="submit" class="u-form-control-hidden u-grey-5" wfd-invisible="true">
-          </div>
-          <div class="u-form-send-message u-form-send-success" wfd-invisible="true">Thank you! Your message has been
-            sent.</div>
-          <div class="u-form-send-error u-form-send-message" wfd-invisible="true">Unable to send your message. Please
-            fix errors then try again.</div>
-          <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true">
-        </form>
+        </button>
+      </form>
+
+      <!-- Left contact page -->
+
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item">
+            <i class="fa-solid fa-location-dot" style="font-size: 30px;">
+              <span class="contact-text place">Departamento, Distrito</span>
+            </i>
+          </li>
+          <li class="list-item">
+            <i class="fa-solid fa-phone" style="font-size: 30px;">
+              <span class="contact-text phone">
+                <a href="tel:###-####" title="Give me a call">(###) ###-####</a>
+              </span>
+            </i>
+          </li>
+
+          <li class="list-item">
+            <i class="fa-solid fa-envelope" style="font-size: 30px;">
+              <span class="contact-text gmail">
+                <a href="mailto:#" title="Send me an email">correo@gmail.com</a>
+              </span>
+            </i>
+          </li>
+
+        </ul>
+
+        <hr class="line">
+        <ul class="social-media-list d-flex justify-content-center align-items-center">
+          <li class="d-flex justify-content-center align-items-center">
+            <a href="#" target="_blank" class="contact-icon">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li class="d-flex justify-content-center align-items-center">
+            <a href="#" target="_blank" class="contact-icon">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </li>
+          <li class="d-flex justify-content-center align-items-center">
+            <a href="#" target="_blank" class="contact-icon">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <hr>
       </div>
+
     </div>
-  </section> -->
+
+  </section>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
